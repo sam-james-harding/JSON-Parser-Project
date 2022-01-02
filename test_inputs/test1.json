@@ -1,13 +1,19 @@
 {
-    "name": "Sam",
-    "age": 17,
+    "name": "Alf",
+    "age": 52,
     "hobbies": [
-        "rock climbing",
-        "gym",
+        "lacrosse",
+        "coding",
         {
             "stuff": "things"
         }
     ],
-    "dob": "27/05/2004",
-    "adult": null
+    "dob": {
+        "day": 18,
+        "month": 4,
+        "year": 1947
+    },
+    "adult": true,
+    "ssn": null,
+    "mass": 2e7
 }

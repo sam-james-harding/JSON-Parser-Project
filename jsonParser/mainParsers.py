@@ -1,15 +1,13 @@
 from .helperFunctions import JSONType, preprocess, splitNonNested
 
 def parseAny(jsonString: str):
-    jt = JSONType #type alias
-
     jsonText, jsonType = preprocess(jsonString)
 
     match jsonType:
-        case jt.OBJECT: return parseObject(jsonText)
-        case jt.ARRAY: return parseArray(jsonText)
-        case jt.STRING: return jsonText
-        case jt.VALUE: return parseValue(jsonText)
+        case JSONType.OBJECT: return parseObject(jsonText)
+        case JSONType.ARRAY: return parseArray(jsonText)
+        case JSONType.STRING: return jsonText
+        case JSONType.VALUE: return parseValue(jsonText)
 
 def parseObject(objectStr: str):
     lines = splitNonNested(objectStr, ",")
