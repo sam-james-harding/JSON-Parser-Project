@@ -1,0 +1,13 @@
+{
+    "name": "Sam",
+    "age": 17,
+    "hobbies": [
+        "rock climbing",
+        "gym",
+        {
+            "stuff": "things"
+        }
+    ],
+    "dob": "27/05/2004",
+    "adult": null
+}
