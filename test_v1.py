@@ -1,4 +1,4 @@
-from jsonParser import parseFile, parseString, splitNonNested
+from jsonParser_v1 import parseFile, parseString
 
 from pprint import pprint
 
