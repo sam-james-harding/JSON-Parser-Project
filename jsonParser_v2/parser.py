@@ -1,13 +1,5 @@
 from .datatypes import JSymb, Value
 
-def parse(lexedJSON: list):
-    firstVal: JSymb = lexedJSON[0]
-
-    if firstVal in (JSymb.ObjectStart, JSymb.ArrayStart):
-        return parseAll(lexedJSON)
-    else:
-        endWithError()
-
 def parseAll(lexedJSON: list):
     if lexedJSON == []: endWithError() # cant parse nothing i.e. non-closed bracket
 
