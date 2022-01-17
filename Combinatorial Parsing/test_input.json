@@ -1,0 +1,19 @@
+{
+    "name": "Alf",
+    "age": 52,
+    "hobbies": [
+        "lacrosse",
+        "coding",
+        {
+            "stuff": "things"
+        }
+    ],
+    "dob": {
+        "day": 18,
+        "month": 4,
+        "year": 1947
+    },
+    "adult": true,
+    "ssn": null,
+    "mass": 2e7
+}
