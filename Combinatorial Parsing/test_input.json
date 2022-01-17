@@ -15,5 +15,6 @@
     },
     "adult": true,
     "ssn": null,
-    "mass": 2e7
+    "mass": 2e7,
+    "nothing": ""
 }

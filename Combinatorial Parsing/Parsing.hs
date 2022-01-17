@@ -1,5 +1,5 @@
 -- Module declaration
-module Parsing (module Parsing, module Control.Applicative) where
+module Parsing  where
 
 -- imports
 import Control.Applicative
